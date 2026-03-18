@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-18T22:21:54.358673+00:00",
-  "count": 19,
+  "generated_at": "2026-03-18T22:24:28.720744+00:00",
+  "count": 23,
   "tweets": [
     {
       "id": "2034056248165896478",
@@ -84,6 +84,22 @@
       "created_at": "2026-03-12T09:10:45.000Z"
     },
     {
+      "id": "2031706939395318198",
+      "author_handle": "saurbhmishrra",
+      "author_name": "Mishy",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2028104612595830784/IlrXpvFs_normal.jpg",
+      "content": "I built a real-time intelligence dashboard tracking capital leaving Dubai during the current war state what the data is actually showing 👇\n💰 $21.4B left Dubai's markets this month alone.That's not a rumor. That's capital re-routing in real time — and most people have no idea https://t.co/yHntDtw4Ow",
+      "link_url": "",
+      "tweet_url": "https://x.com/saurbhmishrra/status/2031706939395318198",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HDISjOtaEAAyX4U.jpg",
+        "https://pbs.twimg.com/media/HDISjPJbEAEeKhF.jpg",
+        "https://pbs.twimg.com/media/HDISjOdbwAA29IB.jpg",
+        "https://pbs.twimg.com/media/HDISjOyakAE544b.jpg"
+      ],
+      "created_at": "2026-03-11T12:20:56.000Z"
+    },
+    {
       "id": "2031610097127010432",
       "author_handle": "loopdom",
       "author_name": "dom",
@@ -163,6 +179,31 @@
       "created_at": "2026-03-03T16:18:47.000Z"
     },
     {
+      "id": "2028807581884412003",
+      "author_handle": "alex_nijmolen",
+      "author_name": "Alexander",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2018886622205661185/eNtVeqlt_normal.jpg",
+      "content": "Built this while bored in the trench @base was dry, nothing going on.\nIntel Monitor real-time global intelligence dashboard.\n\nLive map: flights, conflict zones, earthquakes, satellites &amp; strike reports. News from Bloomberg, CNBC, DW &amp; Al Jazeera. Forked @OpenClaw for AI briefings https://t.co/e1Y1hYpr3n",
+      "link_url": "",
+      "tweet_url": "https://x.com/alex_nijmolen/status/2028807581884412003",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HCfFvSya8AAp_1N.jpg",
+        "https://pbs.twimg.com/media/HCfFvS1aQAA08ut.jpg"
+      ],
+      "created_at": "2026-03-03T12:19:55.000Z"
+    },
+    {
+      "id": "2028536967252824319",
+      "author_handle": "yuvicodes",
+      "author_name": "Yuvraj",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1927425576203137026/kY2AWJ6I_normal.jpg",
+      "content": "Just launched GeoTrack\nA real-time global intelligence dashboard that tracks: Active conflicts worldwide , News from 40+ sources, auto-clustered &amp; threat-scored , Financial markets with live sparklines , Military flights &amp; wildfire detection , AI-powered world briefings via Groq",
+      "link_url": "",
+      "tweet_url": "https://x.com/yuvicodes/status/2028536967252824319",
+      "media_urls": [],
+      "created_at": "2026-03-02T18:24:36.000Z"
+    },
+    {
       "id": "2028428187458556200",
       "author_handle": "INSSIsrael",
       "author_name": "INSS",
@@ -185,6 +226,17 @@
         "https://pbs.twimg.com/media/HCS5pURW0AECef1.jpg"
       ],
       "created_at": "2026-03-01T03:32:56.000Z"
+    },
+    {
+      "id": "2027125008582184985",
+      "author_handle": "angsuman",
+      "author_name": "Angsuman Chakraborty ✪",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2020003725474164736/NPY76eCF_normal.jpg",
+      "content": "#fyi Threat Radar – Live cyber threat intelligence dashboard https://t.co/nlrSVM2hgi",
+      "link_url": "https://radar.offseq.com/",
+      "tweet_url": "https://x.com/angsuman/status/2027125008582184985",
+      "media_urls": [],
+      "created_at": "2026-02-26T20:53:58.000Z"
     },
     {
       "id": "2026907605302653032",
