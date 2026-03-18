@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IndexRR</title>
+<style>
+  body {
+    background-color: #c0c0c0;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* ── Header ── */
+  .site-header {
+    background-color: #000080;
+    color: #ffffff;
+    padding: 12px 20px 10px;
+    border-bottom: 4px solid #ffff00;
+  }
+  .site-header h1 {
+    font-family: "Times New Roman", serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0 0 3px;
+    color: #ffffff;
+    letter-spacing: 1px;
+  }
+  .header-sub {
+    font-size: 11px;
+    color: #aaaaff;
+    font-style: italic;
+  }
+
+  /* ── Info bar ── */
+  .info-bar {
+    background-color: #808080;
+    border-bottom: 2px inset #606060;
+    padding: 4px 20px;
+    font-size: 11px;
+    color: #ffffff;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .info-bar b { color: #ffff99; }
+
+  /* ── Main ── */
+  .main {
+    padding: 14px 20px 32px;
+    max-width: 680px;
+  }
+
+  .welcome-box {
+    background: #ffffff;
+    border: 2px inset #808080;
+    padding: 8px 12px;
+    margin-bottom: 14px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .welcome-box b { color: #000080; }
+
+  hr {
+    border: none;
+    border-top: 2px inset #808080;
+    margin: 12px 0;
+  }
+
+  h2 {
+    font-size: 15px;
+    color: #000080;
+    margin: 0 0 10px;
+    font-weight: bold;
+  }
+
+  /* ── Tweet card ── */
+  .tweet-card {
+    border: 2px outset #aaaaaa;
+    margin-bottom: 12px;
+    background: #c0c0c0;
+  }
+
+  /* Blue header strip */
+  .tweet-header {
+    background-color: #000080;
+    color: #ffffff;
+    padding: 6px 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #3333aa;
+  }
+  .tweet-avatar {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #6666cc;
+    flex-shrink: 0;
+    object-fit: cover;
+    background: #3333aa;
+  }
+  .tweet-avatar-placeholder {
+    width: 32px;
+    height: 32px;
+    background: #3333aa;
+    border: 1px solid #6666cc;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #aaaaff;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+  }
+  .tweet-author {
+    flex: 1;
+    min-width: 0;
+  }
+  .tweet-name {
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .tweet-handle {
+    font-size: 11px;
+    color: #aaaaff;
+  }
+  .tweet-date {
+    font-size: 10px;
+    color: #8888cc;
+    white-space: nowrap;
+    font-family: "Courier New", monospace;
+    margin-left: auto;
+    flex-shrink: 0;
+  }
+
+  /* Gray body */
+  .tweet-body {
+    background: #d4d0c8;
+    padding: 10px 12px;
+    border-bottom: 1px inset #b0b0b0;
+  }
+  .tweet-text {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #000000;
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin: 0;
+  }
+
+  /* Media */
+  .tweet-media {
+    background: #b8b4ac;
+    border-top: 1px inset #a0a0a0;
+    padding: 8px 12px;
+    text-align: center;
+  }
+  .tweet-media img {
+    max-width: 100%;
+    max-height: 320px;
+    border: 2px inset #808080;
+    display: block;
+    margin: 0 auto;
+  }
+  .tweet-media-link {
+    display: block;
+    font-size: 11px;
+    color: #000066;
+    margin-top: 4px;
+    font-style: italic;
+  }
+
+  /* Footer strip */
+  .tweet-footer {
+    background: #b0b0b0;
+    border-top: 1px solid #909090;
+    padding: 5px 10px;
+    display: flex;
+    gap: 12px;
+    font-size: 11px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .tweet-footer a { color: #000066; text-decoration: underline; }
+  .tweet-footer a:visited { color: #800080; }
+  .tweet-footer a:hover   { color: #000000; }
+  .tweet-entry-num {
+    margin-left: auto;
+    font-size: 10px;
+    color: #555555;
+    font-family: "Courier New", monospace;
+  }
+
+  /* ── Empty / loading ── */
+  .empty {
+    font-style: italic;
+    color: #333333;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  /* ── Footer ── */
+  .site-footer {
+    background-color: #808080;
+    border-top: 2px inset #606060;
+    padding: 8px 20px;
+    font-size: 11px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .counter {
+    display: inline-block;
+    background: #000000;
+    color: #00ff00;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 13px;
+    padding: 2px 10px;
+    border: 1px inset #333;
+    letter-spacing: 3px;
+    margin: 4px 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="site-header">
+  <h1>IndexRR</h1>
+  <div class="header-sub">A public registry of intelligence dashboards &amp; platforms announced on X/Twitter</div>
+</div>
+
+<div class="info-bar">
+  Entries: <b id="meta-count">...</b> &nbsp;|&nbsp; Updated: <b id="meta-date">...</b>
+</div>
+
+<div class="main">
+  <div class="welcome-box">
+    <b>What is this?</b> Every time someone tweets about launching a new
+    <b>intelligence dashboard</b> or <b>intelligence platform</b>, it gets filed here.
+    No commentary. Just the record.
+    <br><span style="font-size:12px;font-style:italic">Best viewed in Netscape Navigator 3.0 at 800x600.</span>
+  </div>
+
+  <hr>
+  <h2>&#128196; Filed Entries</h2>
+
+  <div id="list"><div class="empty">Loading registry&hellip;</div></div>
+
+  <hr>
+</div>
+
+<div class="site-footer">
+  <div class="counter" id="footer-counter">00000000</div>
+  <br>
+  &copy; IndexRR &mdash; Public Domain
+  <br>
+  <span style="font-size:10px;color:#dddddd">Not affiliated with any intelligence agency, vendor, or dashboard.</span>
+</div>
+
+<script>
+const TWEETS_JSON = './tweets.json';
+
+function fmtDate(iso) {
+  if (!iso) return '—';
+  return new Date(iso).toLocaleDateString('en-US', { year:'numeric', month:'short', day:'numeric' });
+}
+
+function esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function initials(name) {
+  return String(name||'?').split(' ').map(w=>w[0]||'').join('').slice(0,2).toUpperCase();
+}
+
+function renderCard(t, num) {
+  const avatarHtml = t.author_avatar
+    ? `<img class="tweet-avatar" src="${esc(t.author_avatar)}" alt=""
+         onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
+      + `<div class="tweet-avatar-placeholder" style="display:none">${esc(initials(t.author_name))}</div>`
+    : `<div class="tweet-avatar-placeholder">${esc(initials(t.author_name))}</div>`;
+
+  const urls = Array.isArray(t.media_urls) ? t.media_urls : [];
+  const mediaHtml = urls.length
+    ? `<div class="tweet-media">`
+      + urls.map(u =>
+          `<a href="${esc(u)}" target="_blank" rel="noopener">`
+          + `<img src="${esc(u)}" alt="media" loading="lazy"
+               onerror="this.closest('.tweet-media').style.display='none'">`
+          + `</a>`
+          + `<a class="tweet-media-link" href="${esc(u)}" target="_blank" rel="noopener">[open full image]</a>`
+        ).join('')
+      + `</div>`
+    : '';
+
+  const visitLink = t.link_url
+    ? `<a href="${esc(t.link_url)}" target="_blank" rel="noopener">[Visit Platform]</a>`
+    : '';
+
+  return `
+  <div class="tweet-card">
+    <div class="tweet-header">
+      ${avatarHtml}
+      <div class="tweet-author">
+        <div class="tweet-name">${esc(t.author_name)}</div>
+        <div class="tweet-handle">@${esc(t.author_handle)}</div>
+      </div>
+      <div class="tweet-date">${fmtDate(t.created_at)}</div>
+    </div>
+    <div class="tweet-body">
+      <div class="tweet-text">${esc(t.content)}</div>
+    </div>
+    ${mediaHtml}
+    <div class="tweet-footer">
+      ${visitLink}
+      <a href="${esc(t.tweet_url)}" target="_blank" rel="noopener">[Original Tweet &#8599;]</a>
+      <span class="tweet-entry-num">#${String(num).padStart(4,'0')}</span>
+    </div>
+  </div>`;
+}
+
+async function load() {
+  let data;
+  try {
+    const r = await fetch(TWEETS_JSON + '?_=' + Date.now());
+    data = await r.json();
+  } catch(e) {
+    document.getElementById('list').innerHTML =
+      '<div class="empty">ERROR: Could not load registry data.</div>';
+    return;
+  }
+
+  const tweets = data.tweets || [];
+  document.getElementById('meta-count').textContent = tweets.length;
+  document.getElementById('meta-date').textContent  = fmtDate(data.generated_at);
+  document.getElementById('footer-counter').textContent = String(tweets.length).padStart(8,'0');
+
+  if (!tweets.length) {
+    document.getElementById('list').innerHTML =
+      '<div class="empty">No entries yet. Check back soon.</div>';
+    return;
+  }
+
+  document.getElementById('list').innerHTML =
+    tweets.map((t, i) => renderCard(t, tweets.length - i)).join('');
+}
+
+load();
+</script>
+</body>
+</html>
