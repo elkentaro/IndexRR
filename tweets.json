@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-18T23:16:41.846401+00:00",
-  "count": 35,
+  "generated_at": "2026-03-18T23:43:56.975922+00:00",
+  "count": 36,
   "tweets": [
     {
       "id": "2034316971123028268",
@@ -27,6 +27,17 @@
         "https://pbs.twimg.com/amplify_video_thumb/2034212626671304704/img/KfJ2GgJ6F0evI5kF.jpg"
       ],
       "created_at": "2026-03-18T10:17:56.000Z"
+    },
+    {
+      "id": "2034179093533479011",
+      "author_handle": "sebiomo_",
+      "author_name": "omo",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1947186061668433920/CcVolJLz_normal.jpg",
+      "content": "Again, I’ll say I have built something like this for Nigeria. You can check it out at https://t.co/v65qvCqCXy https://t.co/n6FLiTC2YF",
+      "link_url": "http://openwatch.ng",
+      "tweet_url": "https://x.com/sebiomo_/status/2034179093533479011",
+      "media_urls": [],
+      "created_at": "2026-03-18T08:04:23.000Z"
     },
     {
       "id": "2034056248165896478",
