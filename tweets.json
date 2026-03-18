@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-18T23:15:30.937225+00:00",
-  "count": 30,
+  "generated_at": "2026-03-18T23:16:41.846401+00:00",
+  "count": 35,
   "tweets": [
     {
       "id": "2034316971123028268",
@@ -73,6 +73,19 @@
       "created_at": "2026-03-17T10:10:03.000Z"
     },
     {
+      "id": "2033706137514803328",
+      "author_handle": "IncBulls",
+      "author_name": "Nexsen",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2021606215730814976/H0MX6Kgz_normal.jpg",
+      "content": "Bloomberg-level geopolitical intelligence. A fraction of the cost.\n\nGlobal Intel tracks military aircraft, naval fleets, and live headlines scored in real-time by our NLP engine — plotted on an interactive 3D globe with a single Global Tension Index so you always know where the https://t.co/bYTwL37Nps",
+      "link_url": "",
+      "tweet_url": "https://x.com/IncBulls/status/2033706137514803328",
+      "media_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2033704373680017412/img/puPJ-AvUM71eow7H.jpg"
+      ],
+      "created_at": "2026-03-17T00:45:02.000Z"
+    },
+    {
       "id": "2033568466276319670",
       "author_handle": "DailyDarkWeb",
       "author_name": "Dark Web Intelligence",
@@ -97,6 +110,32 @@
         "https://pbs.twimg.com/media/HDiEwMbakAAU-XY.jpg"
       ],
       "created_at": "2026-03-16T12:30:09.000Z"
+    },
+    {
+      "id": "2033169192523063788",
+      "author_handle": "the_seraya",
+      "author_name": "Seraya",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1801468862178934784/iihMV3sy_normal.jpg",
+      "content": "What's inside: 👇\n\n👉 Threat tracker: every country, ballistic vs drones, daily trends, casualties\n👉 Hormuz Watch: ship traffic, oil flow, vessel attacks\n👉 Flight tracker: Dubai, Doha, Muscat, Ben Gurion status\n👉 Full data sources with citations\n\nhttps://t.co/LCDDq4maYL https://t.co/lfBFdVF2xI",
+      "link_url": "http://ww3live.xyz",
+      "tweet_url": "https://x.com/the_seraya/status/2033169192523063788",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HDc8qcfaUAEnSWj.jpg"
+      ],
+      "created_at": "2026-03-15T13:11:24.000Z"
+    },
+    {
+      "id": "2032454050789105961",
+      "author_handle": "qwerty_ytrevvq",
+      "author_name": "Qwerty 🧀",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2003419728857997312/ZLg4c_RO_normal.jpg",
+      "content": "GEOPOLITICAL INFO EDGE IS NOW AVAILABLE\n\n@glintintel launched conflict events:\n\n&gt; 400+ sources\n&gt; every military event with geolocation and timestamp in real time\n\nthis is what info looks like before it reaches the market\n\nit’s like a bloomberg terminal for prediction markets https://t.co/ygadZ3PsL3",
+      "link_url": "",
+      "tweet_url": "https://x.com/qwerty_ytrevvq/status/2032454050789105961",
+      "media_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2032453901631287298/img/qupBrkl8C72eWVsq.jpg"
+      ],
+      "created_at": "2026-03-13T13:49:41.000Z"
     },
     {
       "id": "2032425592168067401",
@@ -295,6 +334,19 @@
       "created_at": "2026-03-01T03:32:56.000Z"
     },
     {
+      "id": "2027431729712034229",
+      "author_handle": "glintintel",
+      "author_name": "Glint",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2008246071328215040/ai79uNEZ_normal.jpg",
+      "content": "Introducing Glint Crisis Monitor.\n\nA real-time situation room for the world's most volatile conflicts.\n\nLive webcams inside Iran and Ukraine (More Coming Soon). AI intel briefings. Verified OSINT geolocations. Whale money flows. All in one terminal.\n\nWe built the situation room. https://t.co/F6KSZbEnwu",
+      "link_url": "",
+      "tweet_url": "https://x.com/glintintel/status/2027431729712034229",
+      "media_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2027431537793216512/img/mDEL2N5p8VvPNvj-.jpg"
+      ],
+      "created_at": "2026-02-27T17:12:46.000Z"
+    },
+    {
       "id": "2027125008582184985",
       "author_handle": "angsuman",
       "author_name": "Angsuman Chakraborty ✪",
@@ -341,6 +393,19 @@
         "https://pbs.twimg.com/amplify_video_thumb/2024942668925554688/img/Gges-RQR7y4Vo-C-.jpg"
       ],
       "created_at": "2026-02-20T20:22:59.000Z"
+    },
+    {
+      "id": "2023900778327429334",
+      "author_handle": "DanielleFong",
+      "author_name": "Danielle Fong 🔆",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1757993684614922240/SjwWIKOZ_normal.jpg",
+      "content": "iran monitor https://t.co/2Hc8ycl3LT is quite the impressive situation monitor https://t.co/WyVG0qyuGN",
+      "link_url": "https://www.iranmonitor.org/",
+      "tweet_url": "https://x.com/DanielleFong/status/2023900778327429334",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HBZW5_bbcAMSi8O.jpg"
+      ],
+      "created_at": "2026-02-17T23:22:02.000Z"
     },
     {
       "id": "2023703602217312507",
