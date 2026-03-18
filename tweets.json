@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-18T22:25:30.840694+00:00",
-  "count": 24,
+  "generated_at": "2026-03-18T23:07:30.216945+00:00",
+  "count": 27,
   "tweets": [
+    {
+      "id": "2034316971123028268",
+      "author_handle": "co11ateral",
+      "author_name": "Co11ateral",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2012547565032443904/HmTrLghW_normal.jpg",
+      "content": "Snowy mountain peaks in Turkey, a few days ago. The dashboard gets new MODIS Terra satellite imagery daily\n\nYou can run it locally: https://t.co/wBbt6mathT\n\n@three_cube @_aircorridor\n#privacy #OSINT https://t.co/7nTuF2mbb1",
+      "link_url": "https://hackers-arise.com/open-source-intelligence-osint-tracking-world-events-with-shadowbroker/",
+      "tweet_url": "https://x.com/co11ateral/status/2034316971123028268",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HDtYI89XAAAwzQM.jpg"
+      ],
+      "created_at": "2026-03-18T17:12:16.000Z"
+    },
     {
       "id": "2034056248165896478",
       "author_handle": "fxnction",
@@ -58,6 +71,19 @@
         "https://pbs.twimg.com/media/HDivfMYbUAAKzKu.jpg"
       ],
       "created_at": "2026-03-16T15:37:58.000Z"
+    },
+    {
+      "id": "2033521197963767853",
+      "author_handle": "GithubProjects",
+      "author_name": "GitHub Projects Community",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1679831765744259073/hoVtsOZ9_normal.jpg",
+      "content": "Your personal intelligence agent. watches the world from multiple data sources and pings you when something changes.\n\nCrucix pulls satellite fire detection, flight tracking, radiation monitoring, satellite constellation tracking, economic indicators, live market prices, conflict https://t.co/SPbm4zn5bt",
+      "link_url": "",
+      "tweet_url": "https://x.com/GithubProjects/status/2033521197963767853",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HDiEwMbakAAU-XY.jpg"
+      ],
+      "created_at": "2026-03-16T12:30:09.000Z"
     },
     {
       "id": "2032425592168067401",
@@ -276,6 +302,19 @@
       "tweet_url": "https://x.com/RyanFedasiuk/status/2026332662231646670",
       "media_urls": [],
       "created_at": "2026-02-24T16:25:28.000Z"
+    },
+    {
+      "id": "2024942881279279583",
+      "author_handle": "glintintel",
+      "author_name": "Glint",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2008246071328215040/ai79uNEZ_normal.jpg",
+      "content": "Introducing Glint. A real-time intelligence terminal for prediction markets.\n\nWe are monitoring the situation. So you don't have to.\n\nIt tracks signals from X, Telegram, OSINT, military flights, and whale trades. Classifies each one and maps it to the market it affects, in https://t.co/o3pdWVLdRv",
+      "link_url": "",
+      "tweet_url": "https://x.com/glintintel/status/2024942881279279583",
+      "media_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2024942668925554688/img/Gges-RQR7y4Vo-C-.jpg"
+      ],
+      "created_at": "2026-02-20T20:22:59.000Z"
     },
     {
       "id": "2021335517770457136",
