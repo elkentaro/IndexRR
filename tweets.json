@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-18T22:16:10.449879+00:00",
-  "count": 17,
+  "generated_at": "2026-03-18T22:21:54.358673+00:00",
+  "count": 19,
   "tweets": [
     {
       "id": "2034056248165896478",
@@ -34,6 +34,17 @@
       "tweet_url": "https://x.com/Dinosn/status/2033897961596326196",
       "media_urls": [],
       "created_at": "2026-03-17T13:27:16.000Z"
+    },
+    {
+      "id": "2033848331290480808",
+      "author_handle": "sanah_crims",
+      "author_name": "Hassanat Oladeji",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1349088443792551936/NSwqLVq2_normal.jpg",
+      "content": "Blog: https://t.co/qimBovitLI\n\nCyHawk Africa Threat Intelligence Dashboard:\nhttps://t.co/4QhxQ1iECt\n\nGlobal News:\nhttps://t.co/abX3owx3oc\n\nCyHawk Africa Vulnerabilities Catalog:\nhttps://t.co/CEzE23B9Xp\n\n#IWD2026 #AfricaCyberFest2026 #CyHawkAfrica",
+      "link_url": "http://cyhawk-africa.com",
+      "tweet_url": "https://x.com/sanah_crims/status/2033848331290480808",
+      "media_urls": [],
+      "created_at": "2026-03-17T10:10:03.000Z"
     },
     {
       "id": "2033568466276319670",
@@ -71,6 +82,19 @@
       "tweet_url": "https://x.com/octacons/status/2032021468708806958",
       "media_urls": [],
       "created_at": "2026-03-12T09:10:45.000Z"
+    },
+    {
+      "id": "2031610097127010432",
+      "author_handle": "loopdom",
+      "author_name": "dom",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2009864176869548033/pVPbAENd_normal.jpg",
+      "content": "Real-time OSINT intelligence dashboard that aggregates global events from 11 sources: earthquakes, conflicts, cyber threats, markets, breaking news - onto a 3D globe with AI-powered analysis. https://t.co/RelBqc8WPb",
+      "link_url": "",
+      "tweet_url": "https://x.com/loopdom/status/2031610097127010432",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HDG6naZbkAAiUB0.jpg"
+      ],
+      "created_at": "2026-03-11T05:56:07.000Z"
     },
     {
       "id": "2029630603730026865",
