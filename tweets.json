@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-18T23:43:56.975922+00:00",
-  "count": 36,
+  "generated_at": "2026-03-19T06:18:19.396232+00:00",
+  "count": 37,
   "tweets": [
     {
       "id": "2034316971123028268",
@@ -82,6 +82,19 @@
       "tweet_url": "https://x.com/sanah_crims/status/2033848331290480808",
       "media_urls": [],
       "created_at": "2026-03-17T10:10:03.000Z"
+    },
+    {
+      "id": "2033827471494205819",
+      "author_handle": "cyb_detective",
+      "author_name": "Cyber Detective💙💛",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1425498361981964295/il0HTnUL_normal.jpg",
+      "content": "WAR 3.0 REAL TIME HEAT MAP\n\nAnother tool that includes a map and a news feed for keeping up with current events around the world.\n\nIt also offers a lot of stats (7d/30d/90d/all time): top events types, events by region, most affected countries and other.\n\nhttps://t.co/xPj29PvFet https://t.co/ATpYt0U5h6",
+      "link_url": "https://warheatmap.app/",
+      "tweet_url": "https://x.com/cyb_detective/status/2033827471494205819",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HDmZ6InbgAAmvaA.jpg"
+      ],
+      "created_at": "2026-03-17T08:47:10.000Z"
     },
     {
       "id": "2033706137514803328",
