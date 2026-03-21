@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-20T23:24:47.434552+00:00",
-  "count": 38,
+  "generated_at": "2026-03-21T12:07:15.357763+00:00",
+  "count": 39,
   "tweets": [
     {
       "id": "2034903759743328496",
@@ -16,6 +16,17 @@
         "https://pbs.twimg.com/media/HD1t28LaIAAaeuh.jpg"
       ],
       "created_at": "2026-03-20T08:03:57.000Z"
+    },
+    {
+      "id": "2034502518781440236",
+      "author_handle": "crucixmonitor",
+      "author_name": "Celesthio",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2034500450544914432/fc5q9xK9_normal.jpg",
+      "content": "I open sourced a personal intelligence terminal last week.\n\nIt pulls data from multiple sources —  Runs locally. No cloud.\nAI layer provides real leveragable information\n4,500+ GitHub stars in 5 days. Wasn't expecting that.\n\nhttps://t.co/qtpNLURCYX",
+      "link_url": "http://github.com/calesthio/Crucix",
+      "tweet_url": "https://x.com/crucixmonitor/status/2034502518781440236",
+      "media_urls": [],
+      "created_at": "2026-03-19T05:29:34.000Z"
     },
     {
       "id": "2034316971123028268",
